@@ -27,8 +27,8 @@ def user_input_features():
     # name_education_type = st.selectbox("NAME_EDUCATION_TYPE",('Higher education', 'Secondary / secondary special','Incomplete higher', 'Lower secondary', 'Academic degree'))
     # name_family_status = st.selectbox("NAME_FAMILY_STATUS",('Civil marriage', 'Married', 'Single / not married', 'Separated','Widow'))
     # name_housing_type = st.selectbox("NAME_HOUSING_TYPE",('Rented apartment', 'House / apartment', 'Municipal apartment','With parents', 'Co-op apartment', 'Office apartment'))
-    num_1 = st.number_input("Enter Number 1",min_value=float(-(1.739*2.71)**(308)),max_value=float((1.739*2.71)**(308))
-    num_2 = st.number_input("Enter Number 2",min_value=float(-(1.739*2.71)**(308)),max_value=float((1.739*2.71)**(308))
+    num_1 = st.number_input("Enter Number 1",min_value=float(-(1.739*2.71)**(308)),max_value=float((1.739*2.71)**(308)))
+    num_2 = st.number_input("Enter Number 2",min_value=float(-(1.739*2.71)**(308)),max_value=float((1.739*2.71)**(308)))
 
     # data = {'CNT_CHILDREN': cnt_children,
     #         'AMT_INCOME_TOTAL': amt_income_total,
